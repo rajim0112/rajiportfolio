@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="./assets/img/favicon.png"> -->
+    <title>Rajeswari Portfolio</title>
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" id="themeStylesheet" href="./porfolio.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a class="logo">Rajeswari Macharla</a>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>  
+
+        <section class="hero-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!</h4><br>
+                    <h2 class="hero-section__title">I'm <span>Rajeswari Macharla</span></h2><br>
+                    <p class="hero-section__desc">I am a Web Developer skilled in Frontend Technologies, such as HTML,
+                        CSS, and JavaScript, creating interactive web experiences. I'm passionate about blending design
+                        aesthetics with functionality.</p>
+                </div>
+    
+                <ul class="social-icons">
+                    <!-- Social Icons -->
+                    <li>
+                        <a href="http://www.linkedin.com/in/rajeswarimacharla0112" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/rajim0112" target="_blank"><i
+                                class="fa-brands fa-git"></i></a>
+                    </li>
+                </ul>
+    
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" title="Got a cool project? Let's work together!">Hire me</button>
+                    <button class="btn btn-dark-outlined">
+                        <a href="./document/Rajeswari.pdf" download>Download CV</a>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="hero-img">
+                <img src="./document/Rajeswari photo.jpeg" alt="not-found" width="350">
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+
+            <div class="about-img">
+                <img src="./document/Rajeswari photo.jpeg" alt="not found">
+            </div>
+    
+            <div class="about-content">
+                <h4>About Me</h4><br>
+                <h2>Aspiring about Software Engineer<br> <span>Web Developer</span></h2><br>
+                <p>My Self Rajeswari Macharla. I recently completed my B.Tech in Electrical and Electronics Engineering from VVIT (2020–2024) and am eager to start my career with a company that values innovation and growth.
+                    Currently, I am enhancing my skills through a Full Stack Development course, focusing on both front-end and back-end technologies.
+                </p>
+    
+                <button class="btn btn-primary">
+                    <a href="./document/Rajeswari.pdf" target="_blank">
+                        Know More <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </button>
+            </div>
+    
+        </section>
+
+        <section class="projects-section" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="projects-cards">
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__desc">
+                        <h4>Design a Robust Controller for the Load Frequency of Interconnected Power System</h4>
+                        <p>This project aims to develop a robust controller of (1+PD)-PID cascade controller for the frequency stabilization
+                            of multi-area interconnected power system. The operational performance of the proposed controller is studied
+                            by laying the step load disturbance of 10% in the area-1 of the considered power system model. For the fine
+                            tuning of the proposed controller, Butterfly optimization algorithm is considered. However, the superiority
+                            performance of the proposed controller is validated with other controllers available in the literature. Further, to
+                            obtain the improvement in the power system performance the high voltage DC line is implemented with the test
+                            system model. The simulation results confirmed the improvement in the system performance with
+                            the incorporation of the HVDC line. To check the robustness of the proposed controller, the sensitivity test is
+                            conducted and validated the robustness. 
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="./document/B14 Major Project Document.pdf" target="_blank">View <i
+                                    class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="projects-card-box">
+                    <div class="projects-card-box__desc">
+                        <h4>Water Level Indicator</h4>
+                        <p>The circuit is designed to indicate three levels of water stored in the tank: low but not empty, half and full but
+                            not overflowing. When there is no water in the tank, all the LEDs are off as an indication that the tank is
+                            completely empty. When water level increases and touches the sensor, the Red LED will glow indicating that
+                            there is water within the tank. As the water level continues to rise and reaches half the tank, Yellow LED will
+                            glow. When the water in the tank rises to full an alarm is made by the buzzer as an indication that the tank is
+                            full.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="./document/water level indicator project.pdf"
+                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>ME!</span></h2>
+            <form action="">
+                <div>
+                    <input type="text" name="name" placeholder="FullName" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+            </form>
+            <div class="contact__github">
+                <button class="btn">
+                    <a href="https://github.com/rajim0112" target="_blank">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                </button>
+            </div>
+        </section>
+    
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 - <a href="" target="_blank">Rajeswari</a> - All Rights
+            Reserved.</p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
